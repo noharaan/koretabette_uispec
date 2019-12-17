@@ -1,0 +1,23 @@
+{
+  "name": "koretabette_uispec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ui-spec-md generate -m md -d dist/public -t theme/standard",
+    "edit-server": "ui-spec-md edit-server -m md -d dist/edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noharaan/koretabette_uispec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noharaan/koretabette_uispec/issues"
+  },
+  "homepage": "https://github.com/noharaan/koretabette_uispec#readme",
+  "devDependencies": {
+    "ui-spec-md": "^0.3.3"
+  }
+}
